@@ -25,8 +25,9 @@
 
 - `git clone https://github.com/pugal7/posable.git`
 - `cd posable/`
-- `composer install`
+- cp .env.example .env
 - Update `.env` and set your database credentials
+- `composer install`
 - `php artisan key:generate`
 - `php artisan migrate`
 - `php artisan db:seed`
