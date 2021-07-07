@@ -27,6 +27,7 @@
 - `cd posable/`
 - cp .env.example .env
 - Update `.env` and set your database credentials
+- update `.env` and set your smtp credentials if email needed
 - `composer install`
 - `php artisan key:generate`
 - `php artisan migrate`
